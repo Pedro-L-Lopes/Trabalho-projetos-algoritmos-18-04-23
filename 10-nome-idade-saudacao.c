@@ -11,7 +11,7 @@ int main(){
 	printf("Digite sua idade: ");
 	scanf("%d", &idade);
 	
-	printf("Ola %s, seja muito bem vindo!\n", nome);
+	printf("Ola %s, seja muito bem vindo! \n Voce tem %d anos, certo?!\n", nome, idade);
 	
 	system("pause");
 }
